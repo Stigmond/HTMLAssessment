@@ -53,6 +53,11 @@ blockquote {
 [alt="Bears Logo"] {
   display: none;
 }
+
 #checkbox-grid {
   list-style: none;
+}
+
+#teamRoster li > ul > li:last-child > ol > li:first-child {
+  font-weight: bold;
 }
