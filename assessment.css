@@ -61,3 +61,14 @@ blockquote {
 #teamRoster li > ul > li:last-child > ol > li:first-child {
   font-weight: bold;
 }
+
+#scoreBoard > thead > tr:first-child,
+#scoreBoard > tbody > tr:first-child,
+#scoreBoard > tfoot {
+  background-color: red;
+}
+
+#scoreBoard > thead > tr:nth-child(2),
+#scoreBoard > tbody > tr:last-child {
+  background-color: green;
+}
