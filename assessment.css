@@ -1,0 +1,37 @@
+.subjectHeader {
+  color: navy;
+  font-family: sans-serif;
+}
+
+thead {
+  font-weight: bold;
+  color: blue;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+#teamRoster,
+#teamRoster ul,
+#teamRoster ol {
+  list-style-type: square;
+}
+
+[href]:hover {
+  background-color: orange;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: brown;
+  color: yellow;
+}
+
+#checkbox-grid {
+  list-style: none;
+}
